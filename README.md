@@ -1,6 +1,6 @@
 # SimpleBudget
 # Make a list of your monthly expenses and calculate the remaining to make sure you expend less than you receive!
-# To start, copy and paste lines 5 - 20 into the programming software of your choice using Python language.
+# To start, copy and paste lines 6 - 21 into the programming software of your choice using Python language.
 # After this you should be all set to go. Enjoy!
 
 import math
