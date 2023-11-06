@@ -31,6 +31,9 @@ def get_total(expenses_list):
 
     return total
 
+class income (expense):
+    pass
+
 # Expenses
 number_of_expenses = int(input("How many expenses do you want to insert? "))
 expenses = []
@@ -58,7 +61,7 @@ for number in range(number_of_incomes):
     description = input("Enter income description: ")
     date = input("Enter income date: ")
 
-    new_income = expense(name, quantity, description, date)
+    new_income = income(name, quantity, description, date)
     incomes.append(new_income)
 
 income_total = get_total(incomes)
