@@ -48,7 +48,7 @@ for number in range(number_of_expenses):
 expense_total = get_total(expenses)
 
 # Incomes
-number_of_incomes = int(input("How many incomes do you want to insert? "))
+number_of_incomes = int(input(f"\nHow many incomes do you want to insert? "))
 incomes = []
 
 for number in range(number_of_incomes):
@@ -63,6 +63,6 @@ for number in range(number_of_incomes):
 
 income_total = get_total(incomes)
 
-total_remaining = expense_total - income_total
+total_remaining = income_total - expense_total
 
 print(f"\n\nYour total remaninig is: {total_remaining}")
